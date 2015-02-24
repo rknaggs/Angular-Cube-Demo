@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="appMainModule">
+<head lang="en">
+
+    <link rel="icon" href="assets/images/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryan C. Knaggs 09/14/2014">
+    <meta name="description" content="Technology Portfolio by Ryan C. Knaggs">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/js/bootstrap-3.2.0-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/js/bootstrap-3.2.0-dist/css/bootstrap-theme.demo.css"/>
+    <link rel="stylesheet" href="libs/js/bootstrap-3.2.0-dist/css/simple-sidebar.css">
+    <link rel="stylesheet" type="text/css" href="templates/slideshow/css/slideshow.css"/>
+
+    <title>Ryan C. Knaggs - Portfolio 2014</title>
+
+    <script type="text/javascript" src="libs/js/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+</head>
+
+
+<body ng-controller="MainController">
+<div class="main">
+    <app-navigation></app-navigation>
+    <app-modal></app-modal>
+
+    <div id="wrapper">
+
+        <!-- Show sidebar custom directive-->
+        <app-sidebar></app-sidebar>
+
+        <!--Show main content window custom directive -->
+        <app-content></app-content>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="libs/js/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="libs/js/angular/angular.min.js"></script>
+<script type="text/javascript" src="libs/js/angular/angular-route.js"></script>
+<script type="text/javascript" src="libs/js/slider/js/bootstrap-slider.js"></script>
+<script type="text/javascript" src="modules/app-main-module.js"></script>
+<script type="text/javascript" src="controllers/app-main-controllers.js"></script>
+<script type="text/javascript" src="controllers/app-nav-controller.js"></script>
+<script type="text/javascript" src="controllers/app-controls-controller.js"></script>
+<script type="text/javascript" src="controllers/app-video-controller.js"></script>
+<script type="text/javascript" src="directives/custom-directives.js"></script>
+<script type="text/javascript" src="templates/slideshow/js/slideshow.js"></script>
+<script>
+</script>
+</body>
+</html>

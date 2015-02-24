@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Dodecahedron",
+        "price": 2.95,
+        "description": "Description1",
+        "canPurchase": true,
+        "soldOut": true,
+        "reviews": [
+            {
+                "stars": 5,
+                "body": "I like it",
+                "author": "ryanknaggs@gmail.com"
+            },
+            {
+                "stars": 5,
+                "body": "Yes",
+                "author": "ryanknaggs@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "PentagonalGem",
+        "price": 5.95,
+        "description": "Description2",
+        "canPurchase": false,
+        "soldOut": false,
+        "reviews": [
+            {
+                "stars": 5,
+                "body": "I like it",
+                "author": "ryanknaggs@gmail.com"
+            },
+            {
+                "stars": 5,
+                "body": "Yes",
+                "author": "ryanknaggs@gmail.com"
+            },
+            {
+                "stars": 5,
+                "body": "I like it",
+                "author": "ryanknaggs@gmail.com"
+            },
+            {
+                "stars": 5,
+                "body": "Yes",
+                "author": "ryanknaggs@gmail.com"
+            }
+        ]
+    }
+]
