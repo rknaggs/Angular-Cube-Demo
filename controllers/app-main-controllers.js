@@ -5,6 +5,8 @@
         'appMainModule.videoController'
     ]);
 
+    // Added
+    var ryan="hello";
 
     /**
      * Main Application Controller
